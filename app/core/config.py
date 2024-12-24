@@ -1,0 +1,5 @@
+from decouple import config
+
+DATABASE_URL = config("DATABASE_URL")
+OPENAI_API_KEY = config("OPENAI_API_KEY")
+GMAIL_CREDENTIALS_FILE = config("GMAIL_CREDENTIALS_FILE")
